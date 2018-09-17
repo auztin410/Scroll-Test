@@ -5,6 +5,7 @@ body {
     overflow-x: scroll;
     display: grid;
     grid-template-columns: repeat(3, 100%);
+    grid-template-rows: 100vh;
 }
 
 section {

@@ -8,6 +8,8 @@ body {
   display: grid;
   -ms-grid-columns: (100%)[3];
       grid-template-columns: repeat(3, 100%);
+  -ms-grid-rows: 100vh;
+      grid-template-rows: 100vh;
 }
 
 section {
