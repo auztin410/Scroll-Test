@@ -8,9 +8,9 @@ body {
 }
 
 section {
-    padding: 7em;
-    height: calc(100vh - 14em);
-    width: calc(100vw - 14em);
+    // padding: 7em;
+    height: calc(100vh);
+    width: calc(100vw);
     color: white;
     scroll-snap-align: start;
 
