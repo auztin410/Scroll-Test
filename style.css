@@ -21,14 +21,20 @@ section {
 
 section:nth-of-type(1) {
   background: blue;
+  -webkit-animation: Section 1.5s forwards 1s linear;
+          animation: Section 1.5s forwards 1s linear;
 }
 
 section:nth-of-type(2) {
   background: green;
+  -webkit-animation: Section 1.5s forwards .5s linear;
+          animation: Section 1.5s forwards .5s linear;
 }
 
 section:nth-of-type(3) {
   background: purple;
+  -webkit-animation: Section 1.5s forwards 1s linear;
+          animation: Section 1.5s forwards 1s linear;
 }
 
 section h1 {
@@ -37,5 +43,31 @@ section h1 {
 
 section p {
   font-size: 1.2em;
+}
+
+@-webkit-keyframes Section {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    height: 1px;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    height: 100vh;
+  }
+}
+
+@keyframes Section {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    height: 1px;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    height: 100vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
